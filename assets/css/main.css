@@ -1,0 +1,219 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.footer__start {
+  display: flex;
+  align-items: center;
+}
+.footer__logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+.footer__title {
+  margin-left: 15px;
+}
+.footer__end {
+  display: flex;
+  align-items: center;
+}
+.footer__text {
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header__logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+.header__title {
+  margin-left: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.form__group {
+  margin-bottom: 15px;
+}
+.form__input {
+  width: 320px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.form .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.form .form__group {
+  margin-bottom: 15px;
+}
+.form .form__input {
+  width: 320px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.form .form__button--primary {
+  background-color: #4CA866;
+  color: white;
+  padding: 1rem 2rem;
+  width: 320px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.form .form__button {
+  padding: 1rem 2rem;
+  width: 320px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CA866;
+  padding-left: 50px;
+  border-radius: 4%;
+  width: 65%;
+  height: 35%;
+}
+.login__content {
+  text-align: center;
+  gap: 55px;
+}
+.login__title {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+.login__input {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.login__button {
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 150px;
+}
+
+.theme__content {
+  display: flex;
+  align-items: center;
+}
+.theme__logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 77px;
+}
+.theme__subtitle {
+  padding-left: 10px;
+}
+.theme__date {
+  padding-left: 30px;
+}
+
+.bootstrap {
+  background-color: #EEEDED;
+}
+.bootstrap__paragragh {
+  padding-top: 20px;
+}
+.bootstrap__image {
+  width: 40%;
+  height: 225px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+.posts {
+  display: flex;
+  gap: 25px;
+}
+.posts__title {
+  margin-top: 0px;
+}
+.posts__item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.posts__item-image {
+  width: 295px;
+  height: 250px;
+  border-radius: 5%;
+}
+.posts__item-content {
+  margin-top: 10px;
+}
+.posts__item-date, .posts__item-title {
+  margin: 0;
+}
+.posts__item2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.posts__item2-logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.posts__item2-source {
+  padding-left: 15px;
+}/*# sourceMappingURL=main.css.map */

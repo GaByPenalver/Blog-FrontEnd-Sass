@@ -1,0 +1,21 @@
+.header {
+    padding: 10px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__logo {
+    width: 55px;            
+    height: 55px;       
+    border-radius: 10px;   
+
+    }
+
+    &__title {
+        margin-left: 15px;   
+    }
+}
+

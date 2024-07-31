@@ -1,0 +1,70 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 100vh; 
+    box-sizing: border-box;
+
+}
+
+.form {
+&__group {
+    margin-bottom: $input-margin-bottom;
+}
+
+&__input {
+    width: $input-width;
+    padding: $input-padding;
+    box-sizing: border-box; 
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 100vh; 
+    box-sizing: border-box;
+
+}
+
+.form {
+&__group {
+    margin-bottom: $input-margin-bottom;
+
+}
+
+&__input {
+    width: $input-width;
+    padding: $input-padding;
+    box-sizing: border-box; 
+    border-radius: 8px;
+}
+
+&__button--primary {
+    background-color:$button-color;
+    color: $color;
+    padding: $button-padding;
+    width: $input-width;
+    box-sizing: border-box;
+    border-radius: 8px; 
+}
+
+&__button {
+    padding: $button-padding;
+    width: $input-width;
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: pointer;
+}
+}}
+
+p{
+    text-align: center;
+}
+
+
