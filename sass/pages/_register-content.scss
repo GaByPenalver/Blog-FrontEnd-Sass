@@ -55,16 +55,23 @@
 }
 
 &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: $button-padding;
     width: $input-width;
-    box-sizing: border-box;
+    gap: 8px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+&__img{
+    width: 50px;
+    height: 50px;
 }
 }}
 
 p{
     text-align: center;
 }
-
 

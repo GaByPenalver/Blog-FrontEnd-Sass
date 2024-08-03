@@ -5,14 +5,12 @@
     }
     
     &__title{
-align-items: start;
+        text-align: left;
     }
     &__logo {
         width: 45px;
         height: 45px;
         border-radius: 77px;
-        
-        
     }
 
     &__subtitle{
@@ -28,8 +26,9 @@ align-items: start;
 .bootstrap{
     background-color: $background-bootstrap;
 
-    &__paragragh{
+    &__paragraph{
         padding-top: 20px;
+        text-align: left;
     }
 
     &__image{
@@ -43,11 +42,10 @@ align-items: start;
 
 .posts{
     display: flex;
-    
     gap:25px;
 
 &__title{
-    margin-top: 0px;
+    margin-bottom:20px;
 }
 
     &__item{
@@ -65,7 +63,6 @@ align-items: start;
 
     &__item-content {
         margin-top: 10px;
-        al
     }
 
     &__item-date,

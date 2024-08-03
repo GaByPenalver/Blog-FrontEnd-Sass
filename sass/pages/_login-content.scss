@@ -25,10 +25,11 @@
     }
 
     &__title {
+        text-align: left;
         color: $color;
         font-size: 40px;
         margin: 0;
-    padding-bottom: 20px
+        padding-bottom: 20px
     }
 
     &__input {
